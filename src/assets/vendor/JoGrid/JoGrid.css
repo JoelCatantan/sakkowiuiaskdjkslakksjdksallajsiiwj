@@ -1,0 +1,75 @@
+[data-jogrid] .no-result {
+    text-align: center;
+}
+
+.jogrid-ajax-loading {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    z-index: 100;
+}
+
+    .jogrid-ajax-loading > div {
+        width: 110px;
+        margin: 30px auto;
+        background-color: #fff;
+        border: solid 1px #ccc;
+        border-radius: 4px;
+        padding: 15px;
+    }
+
+        .jogrid-ajax-loading span {
+            background: url('ajax-loader.gif') no-repeat;
+            display: block;
+            height: 32px;
+            width: 32px;
+            margin: auto;
+            margin-bottom: 7px;
+            margin-top: 7px;
+        }
+
+#jogrid-action-bar {
+    text-align: center;
+}
+
+    #jogrid-action-bar .pagination {
+        margin: 0px;
+    }
+
+[data-jogrid] th {
+    padding: 0px !important;
+}
+
+    [data-jogrid] th a,
+    [data-jogrid] th > span {
+        padding: 8px 17px 8px 8px;
+        display:block;
+        position: relative;
+    }
+
+.jogrid-icon {
+    background: url(arow-sort.png) no-repeat;
+    position: absolute;
+    right: 0px;
+    display: block;
+    height: 36px;
+    width: 14px;
+    top: 0px;
+    margin-right: 2px;
+}
+
+.jogrid-icon-unsorted {
+    background-position: -2px 3px;
+}
+
+.jogrid-icon-asc {
+    background-position: -26px 3px;
+}
+
+.jogrid-icon-desc {
+    background-position: -14px 3px;
+}
