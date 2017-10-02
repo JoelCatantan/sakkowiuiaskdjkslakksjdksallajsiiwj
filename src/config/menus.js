@@ -4,7 +4,6 @@ export default {
             label: 'Users',
             icon: '<i class="fa fa-users"></i>',
             role: 'admin',
-            url: '/#',
             submenus: [
                 {
                     label: 'Add User',

@@ -18,8 +18,13 @@
 
 import sideNav from './side_navigation.vue'
 import topNav from './top_navigation.vue'
+import menus from '../config/menus.js'
 
 export default {
+    created() {
+        sideNav.menus = menus.sideNavigation;
+    },
+
     components: {
         'side-navigation': sideNav,
         'top-navigation': topNav
